@@ -6,9 +6,12 @@ gem 'sqlite3'
 
 
 group :development do
+	gem 'webrat'
 	gem 'rspec-rails' 
 end
 
 group  :test do
+	gem 'webrat'
 	gem 'rspec-rails' 
+	gem 'spork'
 end
